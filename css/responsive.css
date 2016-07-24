@@ -23,7 +23,11 @@ a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom
     background-size: 100% !important;
     height: 137px !important;
 }
-#cta2 .item {
+
+}
+
+@media only screen and (max-width: 480px){
+#cta2{
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: 100% !important;
